@@ -1,5 +1,7 @@
 public class helloapp{
     public static void main(String[] args){
-System.out.println(x:"Hello,world ");
+        // Get name from the command- line argument
+        string name = args[0];
+        System.out.println("Hello,"+name+"!");
     }
 }
